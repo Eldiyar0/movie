@@ -1,0 +1,24 @@
+#movie {
+    padding: 20px 0 0;
+    padding-top: 100px;
+}
+.movie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card img {
+    width: 250px;
+    border-radius: 10px;
+}
+.card {
+    padding: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background: aqua;
+    box-shadow: 2px 7px 17px 1px #2a1aa2;
+}

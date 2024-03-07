@@ -1,0 +1,35 @@
+#modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: bisque;
+    width: 500px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    input {
+        width: 200px;
+        height: 25px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+    }
+    button {
+        width: 120px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        background: rgb(60, 181, 7);
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+}
